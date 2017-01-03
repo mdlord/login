@@ -105,15 +105,16 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="zID-2t-i31"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BYd-dU-o6D" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1828" y="136.28185907046478"/>
         </scene>
-        <!--View Controller-->
+        <!--Registerpage View Controller-->
         <scene sceneID="6so-om-2MG">
             <objects>
-                <viewController id="Dyv-eA-EBu" sceneMemberID="viewController">
+                <viewController id="Dyv-eA-EBu" customClass="registerpageViewController" customModule="login" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="27M-K8-I1k"/>
                         <viewControllerLayoutGuide type="bottom" id="2h2-Th-oFw"/>
@@ -189,18 +190,29 @@
                                 <rect key="frame" x="152" y="483" width="71" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Register"/>
+                                <connections>
+                                    <action selector="registerbutton:" destination="Dyv-eA-EBu" eventType="touchUpInside" id="FW5-Mx-eoJ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nmo-9F-FdE">
                                 <rect key="frame" x="170" y="538" width="34" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
-                                    <segue destination="iux-2b-eQG" kind="presentation" id="U0e-Ul-4xA"/>
+                                    <segue destination="iux-2b-eQG" kind="popoverPresentation" popoverAnchorView="Nmo-9F-FdE" id="U0e-Ul-4xA">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" left="YES"/>
+                                    </segue>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="useremail" destination="Q3p-vO-Sll" id="48A-mp-svy"/>
+                        <outlet property="username" destination="Wa6-xX-89n" id="OCC-eb-LPB"/>
+                        <outlet property="userpass" destination="7P2-Ja-G8g" id="UQy-Ez-b5y"/>
+                        <outlet property="userpass2" destination="hjX-Kx-D15" id="avK-6d-qbC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kMo-xB-71Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -226,6 +238,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="b3q-Rq-BYu"/>
+        <segue reference="U0e-Ul-4xA"/>
     </inferredMetricsTieBreakers>
 </document>

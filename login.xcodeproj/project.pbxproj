@@ -14,6 +14,7 @@
 		BEC29B6B1E1AFD72008FCE72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC29B691E1AFD72008FCE72 /* LaunchScreen.storyboard */; };
 		BEC29B761E1AFD72008FCE72 /* loginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC29B751E1AFD72008FCE72 /* loginTests.swift */; };
 		BEC29B811E1AFD72008FCE72 /* loginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC29B801E1AFD72008FCE72 /* loginUITests.swift */; };
+		BEC29B8F1E1B45EC008FCE72 /* registerpageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC29B8E1E1B45EC008FCE72 /* registerpageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BEC29B7C1E1AFD72008FCE72 /* loginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC29B801E1AFD72008FCE72 /* loginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginUITests.swift; sourceTree = "<group>"; };
 		BEC29B821E1AFD72008FCE72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEC29B8E1E1B45EC008FCE72 /* registerpageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = registerpageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				BEC29B671E1AFD72008FCE72 /* Assets.xcassets */,
 				BEC29B691E1AFD72008FCE72 /* LaunchScreen.storyboard */,
 				BEC29B6C1E1AFD72008FCE72 /* Info.plist */,
+				BEC29B8E1E1B45EC008FCE72 /* registerpageViewController.swift */,
 			);
 			path = login;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEC29B8F1E1B45EC008FCE72 /* registerpageViewController.swift in Sources */,
 				BEC29B631E1AFD72008FCE72 /* ViewController.swift in Sources */,
 				BEC29B611E1AFD72008FCE72 /* AppDelegate.swift in Sources */,
 			);
