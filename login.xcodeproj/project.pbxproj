@@ -15,6 +15,7 @@
 		BEC29B761E1AFD72008FCE72 /* loginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC29B751E1AFD72008FCE72 /* loginTests.swift */; };
 		BEC29B811E1AFD72008FCE72 /* loginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC29B801E1AFD72008FCE72 /* loginUITests.swift */; };
 		BEC29B8F1E1B45EC008FCE72 /* registerpageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC29B8E1E1B45EC008FCE72 /* registerpageViewController.swift */; };
+		BEC29B911E1B6C7F008FCE72 /* loginpageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC29B901E1B6C7F008FCE72 /* loginpageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		BEC29B801E1AFD72008FCE72 /* loginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginUITests.swift; sourceTree = "<group>"; };
 		BEC29B821E1AFD72008FCE72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEC29B8E1E1B45EC008FCE72 /* registerpageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = registerpageViewController.swift; sourceTree = "<group>"; };
+		BEC29B901E1B6C7F008FCE72 /* loginpageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginpageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				BEC29B691E1AFD72008FCE72 /* LaunchScreen.storyboard */,
 				BEC29B6C1E1AFD72008FCE72 /* Info.plist */,
 				BEC29B8E1E1B45EC008FCE72 /* registerpageViewController.swift */,
+				BEC29B901E1B6C7F008FCE72 /* loginpageViewController.swift */,
 			);
 			path = login;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEC29B8F1E1B45EC008FCE72 /* registerpageViewController.swift in Sources */,
+				BEC29B911E1B6C7F008FCE72 /* loginpageViewController.swift in Sources */,
 				BEC29B631E1AFD72008FCE72 /* ViewController.swift in Sources */,
 				BEC29B611E1AFD72008FCE72 /* AppDelegate.swift in Sources */,
 			);

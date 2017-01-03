@@ -28,6 +28,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YbK-Nm-sQx">
+                                <rect key="frame" x="133" y="473" width="103" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Logout"/>
+                                <connections>
+                                    <action selector="logoutbutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7uU-La-IRY"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -40,10 +48,10 @@
             </objects>
             <point key="canvasLocation" x="1079.2" y="137.18140929535232"/>
         </scene>
-        <!--View Controller-->
+        <!--Loginpage View Controller-->
         <scene sceneID="EBQ-tY-tB6">
             <objects>
-                <viewController id="iux-2b-eQG" sceneMemberID="viewController">
+                <viewController id="iux-2b-eQG" customClass="loginpageViewController" customModule="login" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fvg-F9-d7H"/>
                         <viewControllerLayoutGuide type="bottom" id="SN6-N4-5fl"/>
@@ -91,6 +99,9 @@
                                 <rect key="frame" x="177" y="318" width="38" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Login"/>
+                                <connections>
+                                    <action selector="loginbutton:" destination="iux-2b-eQG" eventType="touchUpInside" id="rDj-gT-MlD"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gej-a8-szl">
                                 <rect key="frame" x="163" y="386" width="67" height="30"/>
@@ -106,6 +117,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="zID-2t-i31"/>
+                    <connections>
+                        <outlet property="password" destination="wUw-gj-nK3" id="bbO-qN-kqc"/>
+                        <outlet property="usernametext" destination="e7B-wN-B8C" id="PLL-UI-mP9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BYd-dU-o6D" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -238,6 +253,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="U0e-Ul-4xA"/>
+        <segue reference="b3q-Rq-BYu"/>
     </inferredMetricsTieBreakers>
 </document>
