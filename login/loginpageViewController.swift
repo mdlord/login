@@ -25,12 +25,12 @@ class loginpageViewController: UIViewController {
     }
     
     @IBAction func loginbutton(_ sender: Any) {
-        var user = usernametext.text
-        var pass = password.text
+        let user = usernametext.text
+        let pass = password.text
         
         let prefs = UserDefaults.standard
-        var usernamestored = prefs.object(forKey:"Name")
-        var userpasswordstored = prefs.object(forKey: "Password")
+        let usernamestored = prefs.object(forKey:"Name")
+        let userpasswordstored = prefs.object(forKey: "Password")
         
         if (user?.isEqual(usernamestored))!
         {
@@ -46,19 +46,18 @@ class loginpageViewController: UIViewController {
         }
         if !(pass?.isEqual(userpasswordstored))!
         {
-            print("show alert")
+            let myalert = UIAlertController(title: "Alert", message: "Incorrect Password", preferredStyle: UIAlertControllerStyle.alert)
+            
+            let okAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.default)
+            {
+                action in
+                self.dismiss(animated: true, completion:nil)
+            }
+            myalert.addAction(okAction)
+            self.present(myalert, animated:true, completion:nil)
+
         }
 
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
