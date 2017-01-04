@@ -83,7 +83,7 @@
                                 <rect key="frame" x="53" y="376" width="268.5" height="30"/>
                                 <color key="textColor" red="0.74725948949999998" green="0.74725948949999998" blue="0.74725948949999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="go" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gej-a8-szl">
                                 <rect key="frame" x="16" y="626" width="343" height="33"/>
@@ -196,7 +196,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="nyc1x" translatesAutoresizingMaskIntoConstraints="NO" id="zy9-Se-MnD">
                                 <rect key="frame" x="0.0" y="0.0" width="402" height="736"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="249" image="B4BE4071-2EE6-4E99-869B-C10351C7CEE2" translatesAutoresizingMaskIntoConstraints="NO" id="Aw9-2l-gAA">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="249" image="EA826741-5277-44B0-8F8D-D0F034FF1554" translatesAutoresizingMaskIntoConstraints="NO" id="Aw9-2l-gAA">
                                 <rect key="frame" x="4" y="95" width="367" height="477"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="477" id="Ldg-Qs-GXL"/>
@@ -235,7 +235,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="go" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vcF-7b-tYz">
                                 <rect key="frame" x="40" y="444" width="295" height="41"/>
@@ -333,7 +333,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="B4BE4071-2EE6-4E99-869B-C10351C7CEE2" width="367" height="477">
+        <image name="EA826741-5277-44B0-8F8D-D0F034FF1554" width="367" height="477">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw

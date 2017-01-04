@@ -8,7 +8,7 @@
 
 import UIKit
 
-class loginpageViewController: UIViewController {
+class loginpageViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var usernametext: UITextField!
     @IBOutlet weak var password: UITextField!
@@ -17,6 +17,33 @@ class loginpageViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        self.usernametext.delegate = self
+        self.password.delegate = self
+        
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
+        
+        //Uncomment the line below if you want the tap not not interfere and cancel other interactions.
+        //tap.cancelsTouchesInView = false
+        
+        view.addGestureRecognizer(tap)
+        
+    }
+    
+    func dismissKeyboard() {
+        //Causes the view (or one of its embedded text fields) to resign the first responder status.
+        usernametext.resignFirstResponder()
+        password.resignFirstResponder()
+    }
+
+    func textfieldshouldreturn(usernametext: UITextField) -> Bool
+    {
+        usernametext.resignFirstResponder()
+        return true
+    }
+    func textfieldshouldreturn(password: UITextField) -> Bool
+    {
+        password.resignFirstResponder()
+        return true
     }
 
     override func didReceiveMemoryWarning() {

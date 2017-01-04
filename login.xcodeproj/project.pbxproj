@@ -199,6 +199,7 @@
 				TargetAttributes = {
 					BEC29B5C1E1AFD71008FCE72 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = ZFBE39U585;
 						ProvisioningStyle = Automatic;
 					};
 					BEC29B701E1AFD72008FCE72 = {
@@ -420,9 +421,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = ZFBE39U585;
 				INFOPLIST_FILE = login/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-.login";
+				PRODUCT_BUNDLE_IDENTIFIER = loginmayank;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -432,9 +435,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = ZFBE39U585;
 				INFOPLIST_FILE = login/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-.login";
+				PRODUCT_BUNDLE_IDENTIFIER = loginmayank;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -513,6 +518,7 @@
 				BEC29B871E1AFD72008FCE72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BEC29B881E1AFD72008FCE72 /* Build configuration list for PBXNativeTarget "loginTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				BEC29B8A1E1AFD72008FCE72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BEC29B8B1E1AFD72008FCE72 /* Build configuration list for PBXNativeTarget "loginUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +536,7 @@
 				BEC29B8D1E1AFD72008FCE72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
